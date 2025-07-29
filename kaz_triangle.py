@@ -110,7 +110,6 @@ def plot_vowel_space(
     return areas
 
 
-# ---------- главный сценарий ----------
 def build_vowel_plots(path1: str, path2: str) -> None:
     df1 = load_vowel_data(path1)
     df2 = load_vowel_data(path2)
@@ -134,6 +133,6 @@ def build_vowel_plots(path1: str, path2: str) -> None:
 
 if __name__ == "__main__":
     build_vowel_plots(
-        "/Users/oksanagoncarova/Desktop/статьи лето/казахи статья/vowels_results_русский.xlsx",
-        "/Users/oksanagoncarova/Desktop/статьи лето/казахи статья/vowels_results_казахский.xlsx"
+        "/your file path",
+        "/your file path.xlsx"
     )
