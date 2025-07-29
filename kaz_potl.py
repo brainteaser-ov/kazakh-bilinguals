@@ -1,7 +1,7 @@
 
 from pathlib import Path
 
-file_path = Path('/Users/oksanagoncarova/Desktop/статьи лето/казахи статья/vowels_results_русский.xlsx')
+file_path = Path('/you file path')
 
 
 import pandas as pd
