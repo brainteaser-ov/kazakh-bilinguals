@@ -1,7 +1,7 @@
 
 from pathlib import Path
 
-file_path = Path('/you file path')
+file_path = Path('/your file path')
 
 
 import pandas as pd
